@@ -7,10 +7,10 @@
 </head>
 <body>
 
-<div th:each="cars : ${cars}">
-    <h1 th:text="${cars.getBrand()}"></h1>
-    <p th:text="${cars.getSeries()}"></p>
-    <p th:text="${cars.getYearOfProduction()}"></p>
+<div th:each="car : ${cars}">
+    <h1 th:text="${car.getBrand()}"></h1>
+    <p th:text="${car.getSeries()}"></p>
+    <p th:text="${car.getYearOfProduction()}"></p>
 </div>
 
 </body>
